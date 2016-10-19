@@ -1,0 +1,44 @@
+{
+  "name": "@arpinum/js-engine-postgres",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "eslint": "./node_modules/.bin/eslint .",
+    "mocha": "./node_modules/.bin/mocha lib",
+    "test": "npm run mocha; code=$?; npm run eslint; exit $((${code}+$?))",
+    "tdd": "watch --wait 1 \"npm test\" lib",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "repository": "arpinum-js-engine/js-engine-postgres",
+  "keywords": [
+    "DDD",
+    "CQRS",
+    "ES",
+    "Arpinum",
+    "PostgreSQL"
+  ],
+  "author": "Arpinum",
+  "license": "MIT",
+  "dependencies": {
+    "knex": "0.12.5",
+    "lodash": "4.16.4",
+    "pg": "6.1.0",
+    "pg-query-stream": "1.0.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "chai-as-promised": "6.0.0",
+    "eslint": "3.7.1",
+    "eslint-config-arpinum": "3.0.3",
+    "mocha": "3.1.2",
+    "sinon": "1.17.6",
+    "sinon-as-promised": "4.0.2",
+    "sinon-chai": "2.8.0",
+    "watch": "1.0.1"
+  }
+}
