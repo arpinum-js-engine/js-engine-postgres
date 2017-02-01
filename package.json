@@ -25,10 +25,12 @@
   "author": "Arpinum",
   "license": "MIT",
   "dependencies": {
+    "@arpinum/ddd": "arpinum-js-engine/js-engine-ddd",
     "knex": "0.12.6",
     "lodash": "4.16.6",
     "pg": "6.1.0",
-    "pg-query-stream": "1.0.0"
+    "pg-query-stream": "1.0.0",
+    "tcomb": "3.2.16"
   },
   "devDependencies": {
     "chai": "3.5.0",
