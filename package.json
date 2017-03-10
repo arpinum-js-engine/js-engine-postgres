@@ -1,7 +1,7 @@
 {
   "name": "@arpinum/postgres",
   "version": "0.0.1",
-  "description": "",
+  "description": "PostGreSQL implementations for @arpinum/ddd",
   "main": "./lib/index.js",
   "files": [
     "lib"
@@ -25,7 +25,7 @@
   "author": "Arpinum",
   "license": "MIT",
   "dependencies": {
-    "@arpinum/ddd": "arpinum-js-engine/js-engine-ddd",
+    "@arpinum/ddd": "4.0.0-beta",
     "knex": "0.12.6",
     "lodash": "4.17.4",
     "pg": "6.1.2",
