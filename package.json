@@ -1,6 +1,6 @@
 {
   "name": "@arpinum/postgres",
-  "version": "4.0.0-beta4",
+  "version": "4.0.0-beta5",
   "description": "PostGreSQL implementations for @arpinum/ddd",
   "main": "./lib/index.js",
   "files": [
