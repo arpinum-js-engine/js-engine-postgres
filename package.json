@@ -25,19 +25,19 @@
   "author": "Arpinum",
   "license": "MIT",
   "dependencies": {
-    "@arpinum/ddd": "4.0.0-beta8",
-    "knex": "^0.12.9",
+    "@arpinum/ddd": "4.0.0-beta9",
+    "knex": "0.12.9",
     "lodash": "4.17.4",
-    "pg": "^6.1.5",
+    "pg": "6.1.5",
     "pg-query-stream": "1.0.0",
     "tcomb": "3.2.20"
   },
   "devDependencies": {
     "chai": "3.5.0",
-    "eslint": "^3.18.0",
+    "eslint": "3.19.0",
     "eslint-config-arpinum": "3.0.4",
-    "mocha": "3.2.0",
-    "sinon": "^2.1.0",
+    "mocha": "3.3.0",
+    "sinon": "2.1.0",
     "watch": "1.0.2"
   }
 }
